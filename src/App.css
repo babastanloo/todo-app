@@ -171,3 +171,50 @@
   font-size: 20px;
   color: #3d3d3c;
 }
+@media screen and (max-width: 500px) {
+  .App {
+    width: auto;
+    display: inline-block;
+  }
+  .todo-container {
+    width: auto;
+    display: inline-block;
+  }
+  .input1 {
+    margin: 0;
+  }
+
+  .input2 {
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  .input3 {
+    margin-top: 0;
+  }
+  .checkbox {
+    margin: 0;
+  }
+  .btn1 {
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+  .edit {
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .update {
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .delete {
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
